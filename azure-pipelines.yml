@@ -1,4 +1,10 @@
 # Node.js with Angular
+- task: AzureAppServiceManage@0
+  inputs:
+    azureSubscription: 'Microsoft Partner Network(4c8f59f4-f6e0-4e62-ba6e-eb97a2e6c9bc)'
+    Action: 'Swap Slots'
+    WebAppName: 'azureModuleLabs'
+    ResourceGroupName: 'azureModuleLabs'
 # Build a Node.js project that uses Angular.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
